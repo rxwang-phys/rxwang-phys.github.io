@@ -9,6 +9,23 @@ params:
   defaultTheme: auto
   ShowReadingTime: true
   ShowCodeCopyButtons: true
+  profileMode:
+    enabled: true
+    title: "Your Name"
+    subtitle: "A short description about you or your blog"
+    imageUrl: "/images/IMG1.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: Posts
+        url: "/posts/"
+      - name: Archive
+        url: "/archives/"
+      # - name: Github
+        # url: "https://github.com/"
+  # socialIcons: # optional
+    # - name: "Github"
+      # url: "https://github.com/"
 
 menu:
   main:
