@@ -26,6 +26,12 @@ params:
   # socialIcons: # optional
     # - name: "Github"
       # url: "https://github.com/"
+  # ShowShareButtons: true
+  # ShowBreadCrumbs: true
+  # ShowPostNavLinks: true
+  mainSections:
+    - posts
+    - notes
 
 menu:
   main:
@@ -37,6 +43,10 @@ menu:
       name: Search
       url: /search/
       weight: 20
+    - identifier: notes
+      name: 胡思乱想
+      url: /notes/
+      weight: 30
 
 outputs:
   home:
