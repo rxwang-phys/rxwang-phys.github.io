@@ -33,3 +33,14 @@ menu:
       name: Archive
       url: /archives/
       weight: 10
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 20
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
