@@ -9,3 +9,10 @@ params:
   defaultTheme: auto
   ShowReadingTime: true
   ShowCodeCopyButtons: true
+
+menu:
+  main:
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 10
