@@ -47,6 +47,10 @@ menu:
       name: 胡思乱想
       url: /notes/
       weight: 30
+    - identifier: reading
+      name: 闲书随笔
+      url: /reading/
+      weight: 40
 
 outputs:
   home:
