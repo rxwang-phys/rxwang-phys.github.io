@@ -12,7 +12,7 @@ params:
   profileMode:
     enabled: true
     title: "Your Name"
-    subtitle: "A short description about you or your blog"
+    subtitle: "千里之行 始于足下"
     imageUrl: "/images/IMG1.jpg"
     imageWidth: 120
     imageHeight: 120
