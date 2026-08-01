@@ -16,11 +16,11 @@ params:
     imageUrl: "/images/IMG1.jpg"
     imageWidth: 120
     imageHeight: 120
-    buttons:
-      - name: Posts
-        url: "/posts/"
-      - name: Archive
-        url: "/archives/"
+    # buttons:
+    #   - name: Posts
+    #     url: "/posts/"
+    #   - name: Archives
+    #     url: "/archives/"
       # - name: Github
         # url: "https://github.com/"
   # socialIcons: # optional
@@ -31,27 +31,31 @@ params:
   # ShowPostNavLinks: true
   mainSections:
     - posts
-    - notes
+    # - notes
     - reading
 
 menu:
   main:
     - identifier: archives
-      name: Archive
+      name: Archives
       url: /archives/
       weight: 10
     - identifier: search
       name: Search
       url: /search/
       weight: 20
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 30
     - identifier: notes
       name: 胡思乱想
       url: /notes/
-      weight: 30
+      weight: 40
     - identifier: reading
       name: 闲书随笔
       url: /reading/
-      weight: 40
+      weight: 50
 
 outputs:
   home:
