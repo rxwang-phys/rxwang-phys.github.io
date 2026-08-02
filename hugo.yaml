@@ -1,7 +1,7 @@
 baseURL: https://rxwang-phys.github.io/
 locale: zh-CN
 defaultContentLanguage: zh
-title: My Blog 
+title: Blog 
 theme: PaperMod 
 
 params:
@@ -11,7 +11,7 @@ params:
   ShowCodeCopyButtons: true
   profileMode:
     enabled: true
-    title: "Your Name"
+    title: "RX Wang"
     subtitle: "千里之行 始于足下"
     imageUrl: "/images/IMG1.jpg"
     imageWidth: 120
