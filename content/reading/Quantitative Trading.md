@@ -1,6 +1,6 @@
 ---
 date: '2026-08-06T13:28:40+08:00'
-draft: true
+draft: false
 title: '量化交易：如何构建自己的算法交易事业'
 categories: ["Reading"]
 ---
